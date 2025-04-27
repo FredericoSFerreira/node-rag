@@ -7,8 +7,6 @@ yarn-error.log
 # .env files
 .env
 
-# Ignorar o conteúdo da pasta docs/
-docs/
 
 # Manter a pasta docs/ no repositório
 !docs/.gitkeep
