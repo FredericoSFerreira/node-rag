@@ -1,0 +1,35 @@
+{
+  "name": "node-rag",
+  "version": "1.0.0",
+  "description": "Um servidor Node.js para RAG (Retrieval-Augmented Generation) utilizando LangChain e Qdrant.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "dependencies": {
+    "@langchain/openai": "^0.5.7",
+    "@langchain/qdrant": "^0.1.2",
+    "@qdrant/js-client-rest": "^1.14.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "langchain": "^0.3.24",
+    "pdf-text-reader": "^5.1.0"
+  },
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FredericoSFerreira/node-rag.git"
+  },
+  "keywords": [
+    "nodejs",
+    "rag",
+    "langchain",
+    "qdrant",
+    "opensource",
+    "ai"
+  ],
+  "author": "Frederico Ferreira <frederico@ufti.com.br>"
+}
