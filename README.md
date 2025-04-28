@@ -34,7 +34,7 @@ Crie um arquivo `.env` na raiz com suas variáveis de ambiente, por exemplo:
 ```env
 OPENAI_API_KEY=your-openai-api-key
 QDRANT_URL=http://localhost:6333
-QDRANT_API_KEY=your-qdrant-api-key
+QDRANT_API_KEY=your-qdrant-api-key for qdrant cloud ou empty
 ```
 
 ## 🏃‍♂️ Como rodar
