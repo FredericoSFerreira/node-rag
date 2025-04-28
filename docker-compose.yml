@@ -13,16 +13,6 @@ services:
     networks:
       - qdrant_network
 
-  qdrant-ui:
-    image: qdrant/qdrant-ui:latest
-    container_name: qdrant-ui
-    ports:
-      - "3000:3000"
-    environment:
-      - QDRANT_API_URL=http://qdrant:6333  # Conecta ao serviço qdrant
-    networks:
-      - qdrant_network
-
 volumes:
   qdrant_storage:
 
