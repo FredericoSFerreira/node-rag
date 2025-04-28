@@ -8,8 +8,7 @@ yarn-error.log
 .env
 
 
-# Manter a pasta docs/ no repositório
-!docs/.gitkeep
+docs/
 
 # IDEs
 .vscode/
