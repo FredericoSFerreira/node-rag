@@ -72,8 +72,7 @@ O servidor será iniciado localmente.
 
 ```json
 {
-  "message": "Documento indexado com sucesso",
-  "status": "success"
+  "message": "Documento indexado com sucesso"
 }
 ```
 
@@ -97,8 +96,7 @@ O servidor será iniciado localmente.
 
 ```json
 {
-  "answer": "A capital do Brasil é Brasília.",
-  "status": "success"
+  "answer": "A capital do Brasil é Brasília."
 }
 ```
 
